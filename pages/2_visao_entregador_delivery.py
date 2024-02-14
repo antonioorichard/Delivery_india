@@ -22,7 +22,7 @@ import plotly.graph_objects as go
 #from streamlit import set_page_config
 st.set_page_config(page_title = 'Visão Entregador', page_icon = '🛵', layout = 'wide' )
 #Importar Dataframe*********************************
-df = pd.read_csv('Dashboards/Delivery_india/train.csv')
+df = pd.read_csv('Dataset/train.csv')
 #\Importar Dataframe--------------------------------
 
 
