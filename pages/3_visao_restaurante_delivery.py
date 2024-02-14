@@ -22,7 +22,7 @@ from haversine import haversine
 st.set_page_config(page_title = 'Visão dos Restaurantes', page_icon = ' 🍲🍴 ', layout = 'wide' )
 
 #Importar Dataframe*********************************
-df = pd.read_csv('Dashboards/Delivery_india/train.csv')
+df = pd.read_csv('Dataset/train.csv')
 #\Importar Dataframe--------------------------------
 
 
